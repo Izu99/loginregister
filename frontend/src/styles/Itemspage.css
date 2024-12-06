@@ -1,0 +1,53 @@
+.item-manager {
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input,
+button {
+  margin: 10px 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.item-card {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  height: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Match the card's border radius */
+}
+
+.edit-button,
+.delete-button {
+  margin-top: 10px;
+}
+
+.placeholder {
+  color: #ccc;
+  text-align: center;
+}
